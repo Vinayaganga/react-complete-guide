@@ -1,3 +1,24 @@
 .App {
   text-align: center;
 }
+.firstDiv{
+  height:300px;
+  width:300px;
+  background-color: blue;
+  position: relative;
+
+}
+.secondDiv{
+  height:200px;
+  width:200px;
+  position: relative;
+  background-color: red;
+}
+.thirdDiv{
+  height:100px;
+  width:100px;
+  margin: auto;
+  position: relative;
+  margin: auto;
+  background-color: white;
+}
