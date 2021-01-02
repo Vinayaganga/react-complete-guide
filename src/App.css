@@ -5,13 +5,19 @@
   height:300px;
   width:300px;
   background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  margin: auto;
 
 }
 .secondDiv{
   height:200px;
   width:200px;
   position: relative;
+  display: flex;
+  justify-content: center;
   background-color: red;
 }
 .thirdDiv{
