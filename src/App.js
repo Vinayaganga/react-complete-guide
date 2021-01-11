@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 /* import styled from 'styled-components'; */
 import classes from  './App.css';
 import Person from './Person/Person';
+// import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
 
 /* const StyledButton = styled.button`
   background-color: ${props=>props.alt?'red':'green'};
@@ -72,7 +73,7 @@ class App extends Component {
     if(this.state.showPersons){
       persons=( <div>
         {this.state.persons.map((person,index)=>{
-          return <Person click= {()=>this.deletePersonHandler(index)} name={person.name} age={person.age} key={person.id} changed={(event)=>this.nameChangedHandler(event, person.id)} />
+          return <Person click= {()=>this.deletePersonHandler(index)} key={person.id} name={person.name} age={person.age}  changed={(event)=>this.nameChangedHandler(event, person.id)} />
         })}
         </div>);
         /* style.backgroundColor='red';
